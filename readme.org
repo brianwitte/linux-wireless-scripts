@@ -1,6 +1,5 @@
-#+title: readme
+#+title: linux-wireless-scripts
 
-* Linux Wireless Scripts Repository
 This repository contains Lua and Shell scripts for working with the Linux wireless stack and network device drivers for Linux. These scripts can be helpful for developers, testers, or anyone interested in understanding or improving wireless on Linux.
 
 ** Installation
