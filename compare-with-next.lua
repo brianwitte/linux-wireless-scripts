@@ -30,7 +30,7 @@ local commit_messages = {
 -- function to fetch and store commit messages
 function fetch_commit_messages(repo_name, number_of_commits)
     local temp_file = "/tmp/" .. repo_name .. "_commit_messages.txt"
-    os.execute(string.format("cd %s && git log --grep=%s --pretty=format:\"%%H %%s\" -n %d > %s",
+    os.execute(string.format("cd %s && git log --grep=\"wifi: \"%s --pretty=format:\"%%H %%s\" -n %d > %s",
                              config[repo_name], driver, number_of_commits, temp_file))
     local file = io.open(temp_file, "r")
     local count = 0
