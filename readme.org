@@ -3,6 +3,18 @@
 * Linux Wireless Scripts Repository
 This repository contains Lua and Shell scripts for working with the Linux wireless stack and network device drivers for Linux. These scripts can be helpful for developers, testers, or anyone interested in understanding or improving wireless on Linux.
 
+** Installation
+To use these scripts easily from anywhere on your system, you can add the linux-wireless-scripts directory to your PATH.
+
+Here's how you can do it:
+
+#+BEGIN_SRC bash
+echo 'export PATH=$PATH:/path/to/linux-wireless-scripts' >> ~/.bashrc
+source ~/.bashrc
+#+END_SRC
+
+Please replace "/path/to/linux-wireless-scripts" with the actual path to where you have cloned or downloaded this repository.
+
 ** Usage
 Due to the specific and personal nature of these scripts, they may require modification to work in different environments. Please read the scripts and adjust as needed for your specific use case.
 
