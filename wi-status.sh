@@ -14,7 +14,7 @@ echo -e "${NC}"
 # Check for USB Wireless cards
 echo -e "${GREEN}Checking for USB Wireless cards...${NC}"
 echo -e "${YELLOW}"
-lsusb | grep -i wireless
+lsusb | grep -i nic
 echo -e "${NC}"
 
 # Checking Network Configuration
