@@ -1,0 +1,3 @@
+[repositories]
+wireless_next_repo = /home/abs/path/to/wireless-next/
+driver_repo_base = /home/abs/path/to/drivers/
