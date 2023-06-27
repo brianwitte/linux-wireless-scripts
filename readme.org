@@ -23,5 +23,4 @@ Please note that these scripts are for personal use, and I will likely not accep
 ** License
 These scripts are licensed under the MIT License.
 
-SPDX short identifier: MIT
 https://opensource.org/license/mit/
