@@ -21,4 +21,7 @@ Due to the specific and personal nature of these scripts, they may require modif
 Please note that these scripts are for personal use, and I will likely not accept pull requests unless I work directly with you on wireless related projects or they are low-friction/complete additions and do not require maintenence on my side. I appreciate your understanding.
 
 ** License
-These scripts are licensed under the [LICENSE](LICENSE).
+These scripts are licensed under the MIT License.
+
+SPDX short identifier: MIT
+https://opensource.org/license/mit/
