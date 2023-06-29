@@ -8,6 +8,7 @@
 -- function. The git log messages are stored in Lua tables
 -- and used to generate patches in the patches directory.
 
+-- NOTE Important thing to reiterate ->
 -- You can specify the number of commits to fetch by passing
 -- it as a parameter to fetch_commit_messages function. This
 -- determines how far back in the git log it will go for each
