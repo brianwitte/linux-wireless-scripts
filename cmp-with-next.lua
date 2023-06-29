@@ -145,8 +145,14 @@ function create_patches(commits_for_patches, patch_dir)
             local sanitized_msg = sanitize_commit_message(commit_msg)
             local patch_file = string.format("%s/%04d-%s-%s.patch",
                                              patch_dir, data.order, sanitized_msg, data.hash)
+
+            -- format patch file
             os.execute(string.format("cd %s && git format-patch -1 %s --stdout > %s",
                                      repos['wireless_next_repo'], data.hash, patch_file))
+
+            -- replace long kernel path with short standalone driver repo path at root
+            os.execute(string.format("sed -i 's*/drivers/net/wireless/realtek/%s/*/*g' %s",
+                                     driver, patch_file))
         end
     end
 end
