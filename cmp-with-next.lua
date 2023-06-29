@@ -211,7 +211,7 @@ if debug == "--debug" then
 end
 
 -- create patch directory and generate patches
-local patch_dir = repos['driver_repo'] .. "/patches"
+local patch_dir = repos['driver_repo'] .. "/patches_" .. driver
 create_patches(commits_for_patches, patch_dir)
 
 if next(commits_for_patches) == nil then
